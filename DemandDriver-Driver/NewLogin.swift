@@ -77,17 +77,31 @@ class NewLogin: UIViewController {
         }
     }
         
-        let verificationID = UserDefaults.standard.string(forKey: "authVerificationID")
-        
-        let credential = PhoneAuthProvider.provider().credential(
-            withVerificationID: verificationID,verificationCode: verificationCode)
-        
         let cancel = UIAlertAction(title: "No", style: .cancel, handler: nil)
         alert.addAction(action)
         alert.addAction(cancel)
         self.present(alert, animated: true, completion: nil)
     
     }
+    
+//    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+//        // Pass device token to auth
+//        Auth.auth().setAPNSToken(deviceToken, type: AuthAPNSTokenTypeProd)
+//        
+//        // Further handling of the device token if needed by the app
+//        // ...
+//    }
+//    
+//    func application(_ application: UIApplication,
+//                     didReceiveRemoteNotification notification: [AnyHashable : Any],
+//                     fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+//        if Auth.auth().canHandleNotification(notification) {
+//            completionHandler(UIBackgroundFetchResultNoData)
+//            return
+//        }
+//        // This notification is not auth related, developer should handle it.
+//    }
+    
     
     /*
     // MARK: - Navigation

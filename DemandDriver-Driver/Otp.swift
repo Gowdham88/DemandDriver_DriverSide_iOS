@@ -10,6 +10,9 @@ import UIKit
 import Firebase
 import FirebaseAuth
 import FirebaseDatabase
+import FirebaseAuthUI
+import FirebaseFirestore
+import FirebasePhoneAuthUI
 
 class Otp: UIViewController {
     var phonestring = ""
