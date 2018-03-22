@@ -1,0 +1,6 @@
+framework module Pods_DemandDriver_Driver {
+  umbrella header "Pods-DemandDriver-Driver-umbrella.h"
+
+  export *
+  module * { export * }
+}

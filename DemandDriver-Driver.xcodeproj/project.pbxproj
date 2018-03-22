@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B83C84F9E823295F5ABA73 /* Pods_DemandDriver_Driver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E615927D310F8BA34371FC5E /* Pods_DemandDriver_Driver.framework */; };
+		757803013B282F0E2D50A63C /* Pods_DemandDriver_DriverUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5FDD182B616CCF4452F1BD /* Pods_DemandDriver_DriverUITests.framework */; };
+		AE39F37420637B9F00B49BDD /* login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39F37320637B9F00B49BDD /* login.storyboard */; };
+		AE39F37620639F0900B49BDD /* NewLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F37520639F0900B49BDD /* NewLogin.swift */; };
+		AE39F37E2063A93200B49BDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE39F37D2063A93200B49BDD /* GoogleService-Info.plist */; };
+		AE39F3812063AE9800B49BDD /* Otp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE39F3802063AE9800B49BDD /* Otp.swift */; };
 		AEB31B9120636A2C007051D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB31B9020636A2C007051D5 /* AppDelegate.swift */; };
 		AEB31B9320636A2C007051D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB31B9220636A2C007051D5 /* ViewController.swift */; };
 		AEB31B9620636A2C007051D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB31B9420636A2C007051D5 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		AEB31B9B20636A2C007051D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB31B9920636A2C007051D5 /* LaunchScreen.storyboard */; };
 		AEB31BA620636A2C007051D5 /* DemandDriver_DriverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB31BA520636A2C007051D5 /* DemandDriver_DriverTests.swift */; };
 		AEB31BB120636A2C007051D5 /* DemandDriver_DriverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB31BB020636A2C007051D5 /* DemandDriver_DriverUITests.swift */; };
+		B6E0A32DF5BFB42755457435 /* Pods_DemandDriver_DriverTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D658F9BE6284BF38DCD66A /* Pods_DemandDriver_DriverTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30B2F3370DE0DA248EAFBC75 /* Pods-DemandDriver-Driver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-Driver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver.debug.xcconfig"; sourceTree = "<group>"; };
+		57D658F9BE6284BF38DCD66A /* Pods_DemandDriver_DriverTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemandDriver_DriverTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F29186F20413945DA0D357E /* Pods-DemandDriver-DriverUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-DriverUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-DriverUITests/Pods-DemandDriver-DriverUITests.release.xcconfig"; sourceTree = "<group>"; };
+		794E3CD493ED0A692F8080A7 /* Pods-DemandDriver-DriverTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-DriverTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-DriverTests/Pods-DemandDriver-DriverTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE39F37320637B9F00B49BDD /* login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login.storyboard; sourceTree = "<group>"; };
+		AE39F37520639F0900B49BDD /* NewLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLogin.swift; sourceTree = "<group>"; };
+		AE39F37D2063A93200B49BDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Volumes/Drive E/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE39F3802063AE9800B49BDD /* Otp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otp.swift; sourceTree = "<group>"; };
+		AE39F3822063B63A00B49BDD /* DemandDriver-Driver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DemandDriver-Driver.entitlements"; sourceTree = "<group>"; };
 		AEB31B8D20636A2C007051D5 /* DemandDriver-Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemandDriver-Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB31B9020636A2C007051D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB31B9220636A2C007051D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,11 @@
 		AEB31BAC20636A2C007051D5 /* DemandDriver-DriverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DemandDriver-DriverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB31BB020636A2C007051D5 /* DemandDriver_DriverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemandDriver_DriverUITests.swift; sourceTree = "<group>"; };
 		AEB31BB220636A2C007051D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E10E2E717A4EAE1288BEAE /* Pods-DemandDriver-DriverTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-DriverTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-DriverTests/Pods-DemandDriver-DriverTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA4B804BF83AAFB12564C6F9 /* Pods-DemandDriver-DriverUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-DriverUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-DriverUITests/Pods-DemandDriver-DriverUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48AE68A559B3983D2C4DA98 /* Pods-DemandDriver-Driver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemandDriver-Driver.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver.release.xcconfig"; sourceTree = "<group>"; };
+		E615927D310F8BA34371FC5E /* Pods_DemandDriver_Driver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemandDriver_Driver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5FDD182B616CCF4452F1BD /* Pods_DemandDriver_DriverUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemandDriver_DriverUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B83C84F9E823295F5ABA73 /* Pods_DemandDriver_Driver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E0A32DF5BFB42755457435 /* Pods_DemandDriver_DriverTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +91,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757803013B282F0E2D50A63C /* Pods_DemandDriver_DriverUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97845B1BC2827273B488A30C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B2F3370DE0DA248EAFBC75 /* Pods-DemandDriver-Driver.debug.xcconfig */,
+				D48AE68A559B3983D2C4DA98 /* Pods-DemandDriver-Driver.release.xcconfig */,
+				794E3CD493ED0A692F8080A7 /* Pods-DemandDriver-DriverTests.debug.xcconfig */,
+				C7E10E2E717A4EAE1288BEAE /* Pods-DemandDriver-DriverTests.release.xcconfig */,
+				CA4B804BF83AAFB12564C6F9 /* Pods-DemandDriver-DriverUITests.debug.xcconfig */,
+				6F29186F20413945DA0D357E /* Pods-DemandDriver-DriverUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA99A74E0C87E32D2549C5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E615927D310F8BA34371FC5E /* Pods_DemandDriver_Driver.framework */,
+				57D658F9BE6284BF38DCD66A /* Pods_DemandDriver_DriverTests.framework */,
+				FB5FDD182B616CCF4452F1BD /* Pods_DemandDriver_DriverUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE39F37F2063AE6F00B49BDD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		AEB31B8420636A2B007051D5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				AEB31BA420636A2C007051D5 /* DemandDriver-DriverTests */,
 				AEB31BAF20636A2C007051D5 /* DemandDriver-DriverUITests */,
 				AEB31B8E20636A2C007051D5 /* Products */,
+				97845B1BC2827273B488A30C /* Pods */,
+				AA99A74E0C87E32D2549C5D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +153,18 @@
 		AEB31B8F20636A2C007051D5 /* DemandDriver-Driver */ = {
 			isa = PBXGroup;
 			children = (
+				AE39F3822063B63A00B49BDD /* DemandDriver-Driver.entitlements */,
+				AE39F37F2063AE6F00B49BDD /* Controllers */,
 				AEB31B9020636A2C007051D5 /* AppDelegate.swift */,
 				AEB31B9220636A2C007051D5 /* ViewController.swift */,
-				AEB31B9420636A2C007051D5 /* Main.storyboard */,
+				AE39F37520639F0900B49BDD /* NewLogin.swift */,
+				AE39F3802063AE9800B49BDD /* Otp.swift */,
 				AEB31B9720636A2C007051D5 /* Assets.xcassets */,
 				AEB31B9920636A2C007051D5 /* LaunchScreen.storyboard */,
 				AEB31B9C20636A2C007051D5 /* Info.plist */,
+				AE39F37D2063A93200B49BDD /* GoogleService-Info.plist */,
+				AEB31B9420636A2C007051D5 /* Main.storyboard */,
+				AE39F37320637B9F00B49BDD /* login.storyboard */,
 			);
 			path = "DemandDriver-Driver";
 			sourceTree = "<group>";
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB31BB520636A2C007051D5 /* Build configuration list for PBXNativeTarget "DemandDriver-Driver" */;
 			buildPhases = (
+				6689BAB5F62F298408C906C5 /* [CP] Check Pods Manifest.lock */,
 				AEB31B8920636A2C007051D5 /* Sources */,
 				AEB31B8A20636A2C007051D5 /* Frameworks */,
 				AEB31B8B20636A2C007051D5 /* Resources */,
+				5119FB79ACE4C549D65FCFDF /* [CP] Embed Pods Frameworks */,
+				A43D20CB078905D16E7C0568 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB31BB820636A2C007051D5 /* Build configuration list for PBXNativeTarget "DemandDriver-DriverTests" */;
 			buildPhases = (
+				C0840B2E13DC1A0CBCA5BF1C /* [CP] Check Pods Manifest.lock */,
 				AEB31B9D20636A2C007051D5 /* Sources */,
 				AEB31B9E20636A2C007051D5 /* Frameworks */,
 				AEB31B9F20636A2C007051D5 /* Resources */,
+				D5FDDFAF1A59A81C731ABE8A /* [CP] Embed Pods Frameworks */,
+				64609A0ABD488854FA14045B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB31BBB20636A2C007051D5 /* Build configuration list for PBXNativeTarget "DemandDriver-DriverUITests" */;
 			buildPhases = (
+				95340ED4DE210B4BD8A982D3 /* [CP] Check Pods Manifest.lock */,
 				AEB31BA820636A2C007051D5 /* Sources */,
 				AEB31BA920636A2C007051D5 /* Frameworks */,
 				AEB31BAA20636A2C007051D5 /* Resources */,
+				890CB4F3DBB431F7595BA1AE /* [CP] Embed Pods Frameworks */,
+				615CC015183A6EF15CAFFCCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +265,11 @@
 					AEB31B8C20636A2C007051D5 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					AEB31BA020636A2C007051D5 = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39F37E2063A93200B49BDD /* GoogleService-Info.plist in Resources */,
+				AE39F37420637B9F00B49BDD /* login.storyboard in Resources */,
 				AEB31B9B20636A2C007051D5 /* LaunchScreen.storyboard in Resources */,
 				AEB31B9820636A2C007051D5 /* Assets.xcassets in Resources */,
 				AEB31B9620636A2C007051D5 /* Main.storyboard in Resources */,
@@ -254,13 +332,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5119FB79ACE4C549D65FCFDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615CC015183A6EF15CAFFCCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-DriverUITests/Pods-DemandDriver-DriverUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64609A0ABD488854FA14045B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-DriverTests/Pods-DemandDriver-DriverTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6689BAB5F62F298408C906C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemandDriver-Driver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890CB4F3DBB431F7595BA1AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-DriverUITests/Pods-DemandDriver-DriverUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95340ED4DE210B4BD8A982D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemandDriver-DriverUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43D20CB078905D16E7C0568 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebasePhoneAuthUI.bundle,
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-Driver/Pods-DemandDriver-Driver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0840B2E13DC1A0CBCA5BF1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemandDriver-DriverTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5FDDFAF1A59A81C731ABE8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemandDriver-DriverTests/Pods-DemandDriver-DriverTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEB31B8920636A2C007051D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39F37620639F0900B49BDD /* NewLogin.swift in Sources */,
 				AEB31B9320636A2C007051D5 /* ViewController.swift in Sources */,
 				AEB31B9120636A2C007051D5 /* AppDelegate.swift in Sources */,
+				AE39F3812063AE9800B49BDD /* Otp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +678,10 @@
 		};
 		AEB31BB620636A2C007051D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B2F3370DE0DA248EAFBC75 /* Pods-DemandDriver-Driver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DemandDriver-Driver/DemandDriver-Driver.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSJRRDKMW9;
 				INFOPLIST_FILE = "DemandDriver-Driver/Info.plist";
@@ -439,8 +695,10 @@
 		};
 		AEB31BB720636A2C007051D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48AE68A559B3983D2C4DA98 /* Pods-DemandDriver-Driver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DemandDriver-Driver/DemandDriver-Driver.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XSJRRDKMW9;
 				INFOPLIST_FILE = "DemandDriver-Driver/Info.plist";
@@ -454,6 +712,7 @@
 		};
 		AEB31BB920636A2C007051D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794E3CD493ED0A692F8080A7 /* Pods-DemandDriver-DriverTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +730,7 @@
 		};
 		AEB31BBA20636A2C007051D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E10E2E717A4EAE1288BEAE /* Pods-DemandDriver-DriverTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +748,7 @@
 		};
 		AEB31BBC20636A2C007051D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4B804BF83AAFB12564C6F9 /* Pods-DemandDriver-DriverUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +765,7 @@
 		};
 		AEB31BBD20636A2C007051D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F29186F20413945DA0D357E /* Pods-DemandDriver-DriverUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
