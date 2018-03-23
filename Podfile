@@ -14,7 +14,7 @@ target 'DemandDriver-Driver' do
   pod 'Firebase/Messaging'
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Phone'
-pod 'Firebase/Auth'
+
 pod 'Firebase/Database'
 
  target 'DemandDriver-DriverTests' do
